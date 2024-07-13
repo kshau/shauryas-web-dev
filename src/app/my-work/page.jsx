@@ -26,8 +26,8 @@ export default function MyWork() {
                 <ScrollArea className="w-[80vw] rounded-md border self-center mt-16 p-5 mb-16 animate-fadeIn opacity-0 delay-300">
 
                     <div className="flex flex-row gap-3 w-[80vw] self-center">
-                            {projects.map(project => (
-                                <Card className="min-w-96 max-w-96">
+                            {projects.map((project, index) => (
+                                <Card className="min-w-96 max-w-96" key={index}>
                                     <Link href={project.url}>
                                         <CardHeader>
                                             <img src={project.image} alt={project.name} className="h-56 rounded-xl object-cover"/>

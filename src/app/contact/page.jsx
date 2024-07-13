@@ -56,9 +56,9 @@ export default function Contact() {
                             <div className="flex flex-col gap-5">
                                 <div className="flex flex-row gap-3 flex-wrap">
                                     <img src="/assets/shaurya-kumar.png" alt="Shaurya Kumar" className="w-36 rounded-lg object-cover my-auto animate-fadeIn opacity-0"/>
-                                    {contactMethods.map(method => (
+                                    {contactMethods.map((method, index) => (
 
-                                        <Card className={`w-[70rem] self-center w-fit animate-fadeIn opacity-0`}>
+                                        <Card className={`w-[70rem] self-center w-fit animate-fadeIn opacity-0`} key={index}>
                                 
                                             <CardHeader className="flex flex-row gap-3">
 
