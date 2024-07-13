@@ -84,7 +84,7 @@ export default function Contact() {
                                 </div>
                             </div>
                             <span>
-                                Hello! I'm Shaurya Kumar, and I specialize in creating stunning portfolio websites for individuals and businesses. With six years of experience in computer programming and two years specifically in web development, I bring a wealth of knowledge and expertise to every project.
+                                Hello! I&apos;m Shaurya Kumar, and I specialize in creating stunning portfolio websites for individuals and businesses. With six years of experience in computer programming and two years specifically in web development, I bring a wealth of knowledge and expertise to every project.
                             </span>
                             <span>
                                 My programming journey began at the age of nine, shortly after my family moved to the United States. Starting with basic block coding on Scratch, I quickly advanced to learning Python and expanded my skill set to include JavaScript, MongoDB, ReactJS, NodeJS, and SQL.

@@ -21,7 +21,7 @@ export default function Home() {
     {
       "title": "One Time Fee!", 
       "icon": <Infinity size={37}/>,
-      "description": <span>Once the site is created, there will be no recurring fees. It's just a one time pay for the website to be hosted forever. </span>
+      "description": <span>Once the site is created, there will be no recurring fees. It&apos;s just a one time pay for the website to be hosted forever. </span>
     }, 
     {
       "title": "Updating The Website", 
