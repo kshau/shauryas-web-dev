@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className="flex flex-col gap-5">
               
-              <span className="text-[45px] lg:text-7xl leading-tight animate-fadeIn opacity-0 delay-300">Shaurya&apos;s Web <br /> Development</span>
+              <span className="text-[45px] lg:text-7xl leading-tight animate-fadeIn opacity-0 delay-300 outlined-text"><span>Shaurya</span>&apos;s Web <br /> Development</span>
 
               <div className="flex flex-row gap-5">
                 <Button className="w-40 text-xl h-12 animate-fadeIn opacity-0 delay-500" onClick={() => {learnMoreRef.current.scrollIntoView({"behavior": "smooth"})}}>Learn more</Button>

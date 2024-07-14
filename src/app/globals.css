@@ -72,3 +72,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.outlined-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
