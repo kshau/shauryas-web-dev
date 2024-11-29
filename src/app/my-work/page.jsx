@@ -14,6 +14,12 @@ export default function MyWork() {
             "image": "/assets/websites/rader-works.png", 
             "description": "A static website created for a handyman company which includes details about their services, past work, contact information, and ways they can be paid for their work.", 
             "url": "https://raderworks.vercel.app"
+        }, 
+        {
+            "name": "Rridhisha's Portfolio", 
+            "image": "/assets/websites/rridhisha-portfolio.png", 
+            "description": "Portfolio created for Rridhisha Kumar, a Research Associate at JCVI. Includes contents of her resume like her education, skills, experience, awards, presentations, and more.", 
+            "url": "https://rridhisha.com"
         }
     ]
 
@@ -34,7 +40,7 @@ export default function MyWork() {
                                         </CardHeader>
                                         <CardContent className="flex justify-center">
                                             <div className="flex flex-col gap-4">
-                                                <span className="text-3xl font-bold self-center">{project.name}</span>
+                                                <span className="text-3xl font-bold self-center text-center">{project.name}</span>
                                                 <span className="text-center text-xl">{project.description}</span>
                                             </div>
                                         </CardContent>

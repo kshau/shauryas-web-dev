@@ -4,18 +4,13 @@ import { Navbar } from "@/components/Navbar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useToast } from "@/components/ui/use-toast"
-import { Clipboard, Mail, Phone } from "lucide-react"
+import { Clipboard, Mail } from "lucide-react"
 
 export default function Contact() {
 
     const {toast} = useToast();
 
     const contactMethods = [
-        {
-            "name": "Phone number", 
-            "icon": <Phone/>,
-            "value": "(404)-432-9074"
-        }, 
         {
             "name": "Email", 
             "icon": <Mail size={27}/>,
